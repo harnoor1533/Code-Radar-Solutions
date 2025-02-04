@@ -5,6 +5,6 @@ int main() {
     int result;
     scanf("%d %d",&nu1,&num2);
     result = num1<<num2;
-    printf("%d",result);
+    printf("%d<<%d",result);
     return 0;
 }
