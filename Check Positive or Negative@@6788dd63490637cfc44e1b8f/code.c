@@ -2,12 +2,14 @@
 
 
 int main() {
-    int x,y;
-    scanf("%d %d",&x,&y);
+    int x;
+    scanf("%d",&x);
     if(x>0){
         printf("Positive");
-    }else{
+    }else if(x<0){
         printf("Negative");
+    }else{
+        printf("zero");
     }
     return 0;
 }
