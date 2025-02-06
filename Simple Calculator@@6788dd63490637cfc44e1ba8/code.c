@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d %c",&num1,&num2,&op);
     switch(op){
         case'+':
-        printf("%d + %d=%d\n",num1+num2);
+        printf("%d\n",num1+num2);
         break;
         default:
         printf("Invalid");
