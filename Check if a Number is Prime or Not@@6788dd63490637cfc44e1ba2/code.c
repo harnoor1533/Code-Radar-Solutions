@@ -3,6 +3,7 @@
 
 int main() {
     int num;
+    int isprime=1;
     scanf("%d",&num);
     if(num<=1){
         isprime=0;
