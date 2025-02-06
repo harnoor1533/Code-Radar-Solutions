@@ -18,6 +18,18 @@ int main() {
         case 11:
         printf("30");
         break;
+        case 2:
+        {
+            int year;
+            scanf("%d",&year);
+            if((year %4==0 && year %100 !=0)||(year %400==0)){
+                printf("29");
+            }else{
+                printf("28");
+            }
+            break;
+        }
+        default("Invalid");
 
 
     }
