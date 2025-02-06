@@ -30,7 +30,7 @@ int main() {
             }
             break;
         }
-        default("Invalid");
+        default("Invalid month");
 
 
     }
