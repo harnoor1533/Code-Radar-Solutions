@@ -9,6 +9,16 @@ int main() {
         case'+':
         printf("%d\n",num1+num2);
         break;
+        case'-':
+        printf("%d\n",num1-num2);
+        break;
+        case'*':
+        printf("%d\n",num1*num2);
+        break;
+        case'/':
+        printf("%d",num1/num2);
+        break;
+
         default:
         printf("Invalid");
     }
