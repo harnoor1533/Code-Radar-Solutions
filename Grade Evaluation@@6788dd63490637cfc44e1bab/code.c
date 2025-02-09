@@ -3,8 +3,8 @@
 
 int main() {
     char grade;
-    scanf(" %c",&grade);
-    swap(grade){
+    scanf("%c",&grade);
+    switch(grade){
         case 'A':
         printf("Excellent");
         break;
