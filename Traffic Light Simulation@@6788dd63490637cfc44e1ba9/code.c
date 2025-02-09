@@ -6,13 +6,13 @@ int main() {
     scanf("%c",&ch);
     switch(ch){
         case 'R':
-        printf("stop");
+        printf("Stop");
         break;
         case 'G':
         printf("Go");
         break;
         case'Y':
-        printf("slow Down");
+        printf("Slow Down");
         break;
     }
 
