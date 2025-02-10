@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &number);
     scanf("%d", &n);
     
-    printf("The %dth bit of %d is %d\n", n, number, getNthBit(number, n));
+    printf(" %d %d\n", n, number, getNthBit(number, n));
     
     return 0;
 }
