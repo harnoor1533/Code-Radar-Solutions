@@ -1,14 +1,24 @@
 #include <stdio.h>
 int main() {
     char ch;
-    scanf("%c",&ch);
-    if(ch >='A' && ch<='Z'){
-        printf("Uppercase");
-    }else if(ch >='a' && ch<='z'){
-        printf("Lowercase");
-    }else{
-        printf("Not an alphabet");
+    scanf("%c", &ch);
+
+    if (ch >= '0' && ch <= '9') {
+        printf("Digit\n");
     }
 
-    return 0;
+    else if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+             ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+        printf("Vowel\n");
+    }
+
+    else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+        printf("Consonant\n");
+    }
+
+    else {
+        printf("Special Character\n");
+    }
+
+    return 0;
 }
